@@ -3,7 +3,11 @@ Netflix personalizado
 Dado el proyecto que lee y mapea todos los shows de Netflix en Java. Se pide crear un programa Java que parta de esa base y proporcione las siguientes funcionalidades:
 
 - Permitirá buscar shows por nombre, país, director, año y el usuario elegirá sus favoritos añadiéndolos a una lista del usuario.
-- Permitirá volcar los favoritos a un fichero de texto con el nombre que el usuario elija. Si el fichero existe añadirá información a lo que ya había, si no lo creará.
+
+- Permitirá volcar los favoritos a un fichero de texto con el nombre que el usuario elija. 
+Si el fichero existe añadirá información a lo que ya había, si no lo creará.
+
 - Permitirá cargar los favoritos existentes en el fichero.
 
-OJO, al añadir un show a favoritos se debe comprobar que no exista ya en la lista!!! Cuidado porque al volcar pueden ocurrir duplicados :)
+OJO, al añadir un show a favoritos se debe comprobar que no exista ya en la lista!!! 
+Cuidado porque al volcar pueden ocurrir duplicados :)

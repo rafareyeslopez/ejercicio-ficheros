@@ -70,6 +70,11 @@ public class Show {
 		return description;
 	}
 
+	public String toCsvFormat() {
+		return show_id + ";" + type + ";" + title + "; " + director + " ;" + cast + "; " + country + "; " + date_added
+				+ "; " + release_year + "; " + rating + "; " + duration + "; " + listed_in + "; " + description;
+	}
+
 	@Override
 	public String toString() {
 		return "Show [show_id=" + show_id + ", type=" + type + ", title=" + title + ", director=" + director + ", cast="
